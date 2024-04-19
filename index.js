@@ -7,4 +7,4 @@ app.get('/data', (req, res) => {
     res.send('Reponse de /data : OK')
 })
 
-app.listen(3000)
+app.listen(process.env.PORT)
